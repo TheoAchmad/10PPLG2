@@ -71,12 +71,14 @@ body {
     font-size: 40px;
 }
 .highlight .kartu {
+    flex-wrap: wrap;
     display: flex;
     justify-content: center;
     margin-top: 20px;
 }
 .card {
     flex-shrink: 0;
+    margin: 10px;
 }
 
 .highlight .card img {
